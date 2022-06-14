@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 250px;
+}
+.productCard{
+    margin-bottom: 50px;
+    width: calc(100% / 3 - 50px);
+    text-align: center;
+}
+.img{
+    height: 200px;
+    margin-bottom: 20px;
+}
+.cardText{
+    padding: 0 30px;
+    text-align: left;
+    min-height: 150px;
+}
+.price {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+  }
+.name {
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.buy {
+    background-color: rgb(61, 61, 255);
+    width: 150px;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .left{
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
